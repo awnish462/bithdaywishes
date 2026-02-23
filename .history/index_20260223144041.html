@@ -199,7 +199,7 @@
       setTimeout(function () {
         intervalTitle = setInterval(function () {
           if (currentIndexTitle < charArrTitle.length) {
-            document.querySelector(".title__letter").textContent +=
+            document.querySelector(".title__letter").textContent +=""
               charArrTitle[currentIndexTitle];
             let i = document.createElement("i");
             i.className = "fa-solid fa-heart";
